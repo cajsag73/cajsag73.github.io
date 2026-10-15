@@ -1,7 +1,7 @@
 # cajsag73.github.io
 
-Domänroten för appen [Dålig täckning](https://github.com/cajsag73/storsandaren).
+Domain root for the app [Bad Line (Dålig täckning)](https://github.com/cajsag73/storsandaren).
 
-- `.well-known/assetlinks.json` bekräftar för Android att webbplatsen tillhör appen, så att adressfältet inte visas. Fingeravtrycken fylls i när de finns (se `storsandaren/domanrot/README.md`).
-- `index.html` skickar besökare vidare till appen.
-- `.nojekyll` gör att GitHub Pages publicerar mappen `.well-known`.
+- `.well-known/assetlinks.json` tells Android that the website belongs to the app, so no address bar is shown. The fingerprints are added once they exist (see `domanrot/README.md` in the app repository).
+- `index.html` sends visitors on to the app.
+- `.nojekyll` makes GitHub Pages publish the `.well-known` folder.
