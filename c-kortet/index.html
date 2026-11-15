@@ -973,7 +973,7 @@ var curTopic=null,quizTopic=null,backTo="home";
 function show(v){
 $("home").hidden=v!=="home";$("topicbar").hidden=v!=="topic";$("quiz").hidden=v!=="quiz";$("results").hidden=v!=="results";
 each(el(".topic"),function(s){s.hidden=!(v==="topic"&&s.id===curTopic)});
-$("foot").hidden=v==="quiz"||v==="results";
+$("foot").hidden=v==="quiz"||v==="results";$("priv").hidden=v!=="home";
 window.scrollTo(0,0)}
 function openTopic(id){curTopic=id;$("qTopic").textContent=NAME[id]+" quiz";show("topic")}
 function goHome(){curTopic=null;show("home")}
