@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#14181c"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><title>C-kortet – C, YKB och ADR</title>
+<link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#14181c"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><title>C-kortet</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap">
 <style>
 :root{--hd1:#9a6b00;--hd2:#b45f06;--hd3:#0f766e;--bg:#eef0f2;--surface:#fff;--ink:#1d2328;--mute:#5b6670;--line:#d3d8dd;--orange:#f28c00;--on-orange:#1d2328;--ok:#1f7a45;--okbg:#e2f3e8;--bad:#b3261e;--badbg:#fbe5e3;
@@ -99,7 +99,12 @@ table.rt th,th{text-align:left;font:600 14px Barlow,sans-serif;color:var(--mute)
 .wq .q{font-size:19px;margin:6px 0}.wbad{color:var(--bad);font-weight:600;margin:4px 0}.wok{color:var(--ok);font-weight:600;margin:4px 0}.wex{margin:6px 0;color:var(--mute)}
 .rm{padding:8px 14px;border:2px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);font:600 15px Barlow,sans-serif;cursor:pointer}
 #clearRes{margin-top:12px}
-.bsfig{margin:12px 0}.bsfig svg{width:100%;height:auto;display:block;color:var(--ink)}.bsleg{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:4px;font-size:16px}.bsleg i{display:inline-block;width:20px;height:12px;border-radius:3px;margin-right:6px;vertical-align:middle}ol.elleg{padding-left:22px;margin:8px 0}ol.elleg li{margin:4px 0}section.topic>h2{color:var(--hd1)}section.topic summary{color:var(--hd2)}section.topic h3{color:var(--hd3)}.tile b{color:var(--hd1)}.tile.quizall b,.tile.results b{color:inherit}.tile.quizall span{color:#fff;font-weight:700;text-shadow:0 1px 2px rgba(0,0,0,.5)}.tile.results{border-left-color:var(--hd2)}.tile.results b,.tile.results span{color:var(--hd2)}.tile.results{background:#8fd0ff;border-color:#5aa9dd;border-left-color:#14181c;color:#14181c}.tile.results b,.tile.results span{color:#14181c}.tile.results span{font-weight:700}.tile.quizall,.tile.results{background:#ffd23f;border-color:#c9a000;color:#14181c}.tile.quizall b,.tile.results b,.tile.quizall span,.tile.results span{color:#14181c;text-shadow:none;font-weight:700}.tile.results{border-left-color:#14181c}.tile.results{border-left-width:2px;border-left-color:#c9a000;min-height:96px}.tile.results{background:var(--orange);border-color:#1d2328;border-left-color:#1d2328}.bsfig{position:sticky;bottom:0;z-index:5;background:var(--surface);border-top:2px solid var(--line);margin:8px 0 0;padding:6px 0 8px}.bsfig svg{max-height:90px}.bsleg{font-size:14px;gap:2px 14px}.bsctl{display:flex;align-items:center;gap:10px;margin:2px 0 8px}.bsctl button{width:44px;height:44px;border-radius:50%;border:2px solid var(--line);background:var(--surface);color:var(--ink);font:700 24px Barlow,sans-serif;cursor:pointer;flex:none}.bsctl input{flex:1;min-width:0;accent-color:var(--orange);height:32px}#bs-v{caret-color:transparent}</style>
+.bsfig{margin:12px 0}.bsfig svg{width:100%;height:auto;display:block;color:var(--ink)}.bsleg{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:4px;font-size:16px}.bsleg i{display:inline-block;width:20px;height:12px;border-radius:3px;margin-right:6px;vertical-align:middle}ol.elleg{padding-left:22px;margin:8px 0}ol.elleg li{margin:4px 0}section.topic>h2{color:var(--hd1)}section.topic summary{color:var(--hd2)}section.topic h3{color:var(--hd3)}.tile b{color:var(--hd1)}.tile.quizall b,.tile.results b{color:inherit}.tile.quizall span{color:#fff;font-weight:700;text-shadow:0 1px 2px rgba(0,0,0,.5)}.tile.results{border-left-color:var(--hd2)}.tile.results b,.tile.results span{color:var(--hd2)}.tile.results{background:#8fd0ff;border-color:#5aa9dd;border-left-color:#14181c;color:#14181c}.tile.results b,.tile.results span{color:#14181c}.tile.results span{font-weight:700}.tile.quizall,.tile.results{background:#ffd23f;border-color:#c9a000;color:#14181c}.tile.quizall b,.tile.results b,.tile.quizall span,.tile.results span{color:#14181c;text-shadow:none;font-weight:700}.tile.results{border-left-color:#14181c}.tile.results{border-left-width:2px;border-left-color:#c9a000;min-height:96px}.tile.results{background:var(--orange);border-color:#1d2328;border-left-color:#1d2328}.bsfig{position:sticky;bottom:0;z-index:5;background:var(--surface);border-top:2px solid var(--line);margin:8px 0 0;padding:6px 0 8px}.bsfig svg{max-height:90px}.bsleg{font-size:14px;gap:2px 14px}.bsctl{display:flex;align-items:center;gap:10px;margin:2px 0 8px}.bsctl button{width:44px;height:44px;border-radius:50%;border:2px solid var(--line);background:var(--surface);color:var(--ink);font:700 24px Barlow,sans-serif;cursor:pointer;flex:none}.bsctl input{flex:1;min-width:0;accent-color:var(--orange);height:32px}#bs-v{caret-color:transparent}.homebtns{grid-template-columns:1fr 1fr;gap:8px;margin:4px 0 12px}.homebtns .tile{min-height:0;padding:9px 12px;gap:2px}.homebtns .tile b{font-size:17px}.homebtns .tile span{font-size:13px;line-height:1.25}.tile.quizall,.tile.results{min-height:0}.tile b{font-size:18px}.homebtns .tile b{font-size:17px}.homebtns .tile.quizall{background:var(--orange);border-color:#1d2328}.homebtns .tile.results{background:#ffd23f;border-color:#c9a000}.homebtns .tile.results{background:#2ec4b6;border-color:#1a8f84}.top{position:relative}.top h1{white-space:nowrap}.themebtn{position:absolute;right:0;bottom:-10px;flex:none;width:46px;height:46px;border-radius:50%;border:2px solid var(--line);cursor:pointer;display:grid;place-items:center;padding:0;background:#1d2328;color:#eceff1}
+.themebtn svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.themebtn .i-sun{display:none}
+:root[data-theme="dark"] .themebtn{background:#eceff1;color:#1d2328;border-color:#eceff1}
+:root[data-theme="dark"] .themebtn .i-sun{display:block}:root[data-theme="dark"] .themebtn .i-moon{display:none}
+@media(max-width:400px){.tile b{font-size:16.5px}}details.priv{margin:10px 0 24px;color:var(--mute);font-size:14px}details.priv summary{color:var(--mute);font-size:14px;font-weight:500;font-family:inherit;cursor:pointer}details.priv p{margin:8px 0;line-height:1.45}</style>
 </head>
 <body>
 <main>
@@ -128,10 +133,15 @@ table.rt th,th{text-align:left;font:600 14px Barlow,sans-serif;color:var(--mute)
 </g>
 </svg>
 <h1>C-kortet</h1>
+<button type="button" id="themeBtn" class="themebtn" aria-label="Byt mellan mörkt och ljust läge" title="Mörkt/ljust läge"><svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M18.7 5.3l-2.1 2.1M7.4 16.6l-2.1 2.1"/></svg><svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></svg></button>
 </header>
 
 <div id="study">
-<div id="home"><div id="tiles" class="tiles">
+<div id="home"><div class="homebtns">
+<button class="tile quizall" id="qAll"><b>Quiz alla ämnen</b><span>Välj 10–70 frågor</span></button>
+<button class="tile results" id="resBtn"><b>Mina resultat</b><span>Quiz och felsvar</span></button>
+</div>
+<div id="tiles" class="tiles">
 <button class="tile" data-t="t-c"><b>C-behörighet</b><span>Krav, vikter, bromsar, körning</span></button>
 <button class="tile" data-t="t-ykb"><b>YKB</b><span>Kör- och vilotider, färdskrivare</span></button>
 <button class="tile" data-t="t-adr"><b>ADR</b><span>Farligt gods, skyltar, klasser</span></button>
@@ -142,9 +152,6 @@ table.rt th,th{text-align:left;font:600 14px Barlow,sans-serif;color:var(--mute)
 <button class="tile" data-t="t-regler"><b>Allmänna trafikregler</b><span>Väjning, hastighet, lastbil</span></button>
 <button class="tile" data-t="t-sign"><b>Vägmärken</b><span>Alla märken med förklaring</span></button>
 </div>
-<div class="homebtns">
-<button class="tile quizall" id="qAll"><b>Quiz alla ämnen</b><span>Blandade frågor från alla ämnen. Välj 10, 20, 30 eller 70 frågor.</span></button>
-<button class="tile results" id="resBtn"><b>Mina resultat</b><span>Dina quiz och frågor du svarat fel på</span></button>
 </div></div>
 <div class="topicbar" id="topicbar" hidden><button class="back" id="back">Tillbaka till ämnen</button><button class="back qb" id="qTopic">Quiz</button></div>
 <section class="card topic" id="t-c"><h2>C-behörighet</h2><ul>
@@ -596,15 +603,17 @@ table.rt th,th{text-align:left;font:600 14px Barlow,sans-serif;color:var(--mute)
 
 <details><summary>Kontroll före avfärd och vid uppkörning</summary>
 <p>Det är samma kontroll i vardagen och på uppkörningen. Du gör den före varje körpass, och vid uppkörningen visar du den för inspektören och förklarar vad du kontrollerar och varför.</p>
-<h3>Översikt</h3><ul>
-<li>Bromsar: låt lufttrycket bygga upp, kontrollera att varningen släcks och provbromsa vid låg fart. Kontrollera parkeringsbroms och släpets broms.</li>
-<li>Styrning: kontrollera att rattens spel är litet och att servon fungerar. Ratten ska inte kännas konstig eller tung.</li>
-<li>Belysning: halvljus, helljus, blinkers, bromsljus, backljus, varningsblinkers och markeringsljus.</li>
-<li>Vätskor: motorolja, kylvätska, spolarvätska, hydraulolja och AdBlue. Titta efter läckage.</li>
-<li>Kopplingar: dragkrok eller sadelkoppling ska vara låst och säkrad. Luft- och elslangar ska sitta rätt.</li>
-<li>Däck och hjul: mönsterdjup, tryck och skador. Hjulmuttrar ska sitta fast.</li>
-<li>Speglar och rutor: rena och rätt inställda.</li>
-<li>Last: säkrad och rätt fördelad. Dokument och färdskrivarkort ska finnas med.</li></ul>
+<h3>Kontrollpunkter</h3>
+<figure class="fig"><svg viewBox="0 0 640 260" role="img" aria-label="Lastbil med numrerade kontrollpunkter 1 till 7 för daglig kontroll" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" font-family="Barlow,Arial,sans-serif"><rect x="30" y="50" width="130" height="100" rx="10"/><path d="M45 62 H110 L140 92 V110 H45 Z" style="fill:currentColor;fill-opacity:.08"/><rect x="175" y="62" width="430" height="88" rx="6"/><line x1="20" y1="165" x2="615" y2="165"/><circle cx="90" cy="182" r="28"/><circle cx="440" cy="182" r="28"/><circle cx="520" cy="182" r="28"/><rect x="32" y="120" width="14" height="14" rx="3" style="fill:#f28c00"/><rect x="595" y="120" width="12" height="14" rx="3" style="fill:#f28c00"/><text x="300" y="240" text-anchor="middle" fill="#fff" stroke="#14181c" stroke-width="4" paint-order="stroke" font-size="28" font-weight="800">1</text><line x1="300" y1="208" x2="300" y2="168" stroke-width="2"/><text x="90" y="246" text-anchor="middle" fill="#fff" stroke="#14181c" stroke-width="4" paint-order="stroke" font-size="28" font-weight="800">2</text><text x="14" y="112" text-anchor="middle" fill="#fff" stroke="#14181c" stroke-width="4" paint-order="stroke" font-size="28" font-weight="800">3</text><text x="80" y="34" text-anchor="middle" fill="#fff" stroke="#14181c" stroke-width="4" paint-order="stroke" font-size="28" font-weight="800">4</text><line x1="80" y1="40" x2="80" y2="52" stroke-width="2"/><text x="140" y="34" text-anchor="middle" fill="#fff" stroke="#14181c" stroke-width="4" paint-order="stroke" font-size="28" font-weight="800">5</text><line x1="140" y1="40" x2="140" y2="52" stroke-width="2"/><text x="380" y="45" text-anchor="middle" fill="#fff" stroke="#14181c" stroke-width="4" paint-order="stroke" font-size="28" font-weight="800">6</text><text x="95" y="102" text-anchor="middle" fill="#fff" stroke="#14181c" stroke-width="4" paint-order="stroke" font-size="28" font-weight="800">7</text></svg><figcaption>Numren 1–7 hör till kontrollpunkterna i listan.</figcaption></figure>
+<ol class="elleg">
+<li><b>Läckage och skador:</b> titta under och runt fordonet efter läckage och synliga skador.</li>
+<li><b>Däck och hjul:</b> mönsterdjup, tryck och skador. Hjulmuttrar ska sitta fast. Kontrollera även dubbelhjulen.</li>
+<li><b>Belysning och speglar:</b> halvljus, helljus, blinkers, bromsljus, backljus, varningsblinkers och markeringsljus. Speglar och rutor ska vara rena och rätt inställda.</li>
+<li><b>Vätskor:</b> motorolja, kylvätska, spolarvätska, hydraulolja och AdBlue. Titta efter läckage.</li>
+<li><b>Bromsar och lufttryck:</b> låt lufttrycket bygga upp, kontrollera att varningen släcks och provbromsa vid låg fart. Kontrollera parkeringsbroms och släpets broms.</li>
+<li><b>Last och kopplingar:</b> lasten ska vara säkrad och rätt fördelad. Dragkrok eller sadelkoppling ska vara låst och säkrad, och luft- och elslangar ska sitta rätt.</li>
+<li><b>Dokument:</b> dokument och färdskrivarkort ska finnas med.</li>
+<li><b>Styrning:</b> rattens spel ska vara litet och servon ska fungera. Ratten ska inte kännas konstig eller tung.</li></ol>
 <h3>Så går kontrollen till</h3>
 <p>Som lastbilsförare ansvarar du för att fordonet är trafiksäkert. Gå igenom delarna nedan i ordning. Vid uppkörningen testar inspektören dina kunskaper om fordonets olika delar.</p>
 <h3>Motor och motorrum</h3><ul>
@@ -684,54 +693,59 @@ table.rt th,th{text-align:left;font:600 14px Barlow,sans-serif;color:var(--mute)
 <li>Koppla alltid både den röda matarledningen och den gula styrledningen till släpet.</li>
 <li>Gör ett bromsprov och ett tryckfallsprov innan du kör.</li></ul></details>
 
-<details><summary>Motor, drivlina och växling</summary><ul>
+<details><summary>Motor, drivlina och växling</summary>
+<figure class="fig"><svg viewBox="0 0 640 170" role="img" aria-label="Kraftens väg från motor via växellåda, kardanaxel och differential till hjulen, med retarder på kardanaxeln" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" font-family="Barlow,Arial,sans-serif"><rect x="15" y="60" width="100" height="60" rx="8" style="fill:#f28c00;fill-opacity:.22"/><text x="65" y="97" text-anchor="middle" fill="currentColor" stroke="none" font-size="19" font-weight="700">Motor</text><g stroke="currentColor"><line x1="115" y1="90" x2="145" y2="90"/><polyline points="135,95 145,90 135,85"/></g><rect x="145" y="60" width="110" height="60" rx="8"/><text x="200" y="97" text-anchor="middle" fill="currentColor" stroke="none" font-size="19" font-weight="700">Växellåda</text><line x1="255" y1="90" x2="385" y2="90" stroke-width="5"/><text x="320" y="140" text-anchor="middle" fill="currentColor" stroke="none" font-size="17" font-weight="600">Kardanaxel</text><rect x="270" y="8" width="100" height="38" rx="8" style="fill:#f28c00;fill-opacity:.22"/><text x="320" y="33" text-anchor="middle" fill="currentColor" stroke="none" font-size="17" font-weight="700">Retarder</text><line x1="320" y1="46" x2="320" y2="88" stroke="#f28c00"/><rect x="385" y="60" width="110" height="60" rx="8"/><text x="440" y="97" text-anchor="middle" fill="currentColor" stroke="none" font-size="19" font-weight="700">Differential</text><g stroke="currentColor"><line x1="495" y1="90" x2="525" y2="90"/><polyline points="515,95 525,90 515,85"/></g><rect x="525" y="60" width="100" height="60" rx="8" style="fill:#f28c00;fill-opacity:.22"/><text x="575" y="97" text-anchor="middle" fill="currentColor" stroke="none" font-size="19" font-weight="700">Hjul</text><text x="15" y="150" text-anchor="start" fill="currentColor" stroke="none" font-size="16" font-weight="600">Avgasbroms på motorn</text></svg><figcaption>Kraften går från motorn via växellådan och kardanaxeln till differentialen och drivhjulen. Retardern bromsar kardanaxeln utan slitage.</figcaption></figure>
+<ul>
 <li>Moderna lastbilar har ofta automatiserad manuell växellåda. Dragkraften är störst vid låga varv.</li>
 <li>Drivaxeln för kraften till hjulen. Differentialspärren låser hjulen så att båda drar vid dålig friktion.</li>
 <li>Motorbroms eller avgasbroms bromsar motorn utan att belasta färdbromsen.</li>
 <li>Retarder är en slitagefri hjälpbroms (hydraulisk eller elektrisk) som bromsar kardanaxeln.</li>
 <li>Håll motorvarvet i den gröna zonen. Tomgångskörning och höga varv ökar bränsleförbrukningen.</li></ul></details>
 
-<details><summary>Bromsar och överhettning</summary><ul>
+<details><summary>Bromsar och överhettning</summary>
+<figure class="fig"><svg viewBox="0 0 640 235" role="img" aria-label="Bromsens temperatur stiger och bromsverkan sjunker vid långvarig bromsning" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" font-family="Barlow,Arial,sans-serif"><line x1="60" y1="190" x2="600" y2="190"/><line x1="60" y1="190" x2="60" y2="25"/><path d="M60 180 C250 175 420 120 590 45" stroke="#f28c00"/><path d="M60 45 C250 50 420 105 590 170"/><text x="600" y="32" text-anchor="end" fill="#f28c00" stroke="none" font-size="17" font-weight="700">Temperatur</text><text x="600" y="205" text-anchor="end" fill="currentColor" stroke="none" font-size="17" font-weight="700">Bromsverkan</text><text x="330" y="222" text-anchor="middle" fill="currentColor" stroke="none" font-size="17" font-weight="600">Tid med hård bromsning i nedförsbacke</text><text x="215" y="100" text-anchor="middle" fill="currentColor" stroke="none" font-size="18" font-weight="700">Fading:</text><text x="215" y="122" text-anchor="middle" fill="currentColor" stroke="none" font-size="17" font-weight="600">bromsen tappar verkan</text></svg><figcaption>Hård bromsning länge gör bromsarna heta. Då minskar bromsverkan (fading). Använd motorbroms eller retarder i långa backar.</figcaption></figure>
+<ul>
 <li>Trumbromsar och skivbromsar används. Skivbroms har bättre kylning.</li>
 <li>Överhettade bromsar tappar bromsverkan (fading). Använd motorbroms eller retarder i långa nedförsbackar.</li>
 <li>Slitna bromsbelägg ger längre bromssträcka.</li>
 <li>Bromsa jämnt. Hård bromsning med släp kan ge sladd eller att släpet viker sig.</li></ul></details>
 
-<details><summary>Hjul, däck och fjädring</summary><ul>
+<details><summary>Hjul, däck och fjädring</summary>
+<figure class="fig"><svg viewBox="0 0 640 235" role="img" aria-label="Luftfjädring med luftbälgar mellan ram och axel" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" font-family="Barlow,Arial,sans-serif"><rect x="140" y="30" width="360" height="26" rx="6"/><rect x="190" y="56" width="50" height="52" rx="16" style="fill:#f28c00;fill-opacity:.25" stroke="#f28c00"/><rect x="400" y="56" width="50" height="52" rx="16" style="fill:#f28c00;fill-opacity:.25" stroke="#f28c00"/><line x1="170" y1="108" x2="470" y2="108"/><circle cx="320" cy="168" r="52"/><circle cx="320" cy="168" r="22"/><line x1="320" y1="108" x2="320" y2="146"/><line x1="450" y1="82" x2="520" y2="82" stroke-width="3"/><text x="525" y="88" text-anchor="start" fill="#f28c00" stroke="none" font-size="18" font-weight="700">Luftbälg</text><line x1="500" y1="43" x2="520" y2="43" stroke-width="3"/><text x="525" y="49" text-anchor="start" fill="currentColor" stroke="none" font-size="18" font-weight="600">Ram</text><line x1="470" y1="108" x2="520" y2="118" stroke-width="3"/><text x="525" y="126" text-anchor="start" fill="currentColor" stroke="none" font-size="18" font-weight="600">Axel</text><line x1="372" y1="168" x2="520" y2="168" stroke-width="3"/><text x="525" y="174" text-anchor="start" fill="currentColor" stroke="none" font-size="18" font-weight="600">Hjul</text><text x="165" y="140" text-anchor="end" fill="#f28c00" stroke="none" font-size="17" font-weight="700">Luft i bälgarna</text><text x="165" y="162" text-anchor="end" fill="currentColor" stroke="none" font-size="17" font-weight="600">håller höjden</text></svg><figcaption>Luftbälgarna sitter mellan ram och axel och fjädrar med luft. Höjden hålls konstant även när lasten ändras.</figcaption></figure>
+<ul>
 <li>Minsta mönsterdjup är 1,6 mm för vanlig användning. Slitna däck ger längre bromssträcka och risk för hydroplaning.</li>
 <li>Fel däcktryck ger ökat slitage, högre bränsleförbrukning och sämre väghållning. Kontrollera det kallt.</li>
 <li>Dubbelmonterade hjul på drivaxlar och släp ger bättre bärighet. Kontrollera att inget föremål sitter fast mellan dem.</li>
 <li>Luftfjädring med luftbälgar ger mjukare gång och håller höjden konstant. Bladfjädring är vanlig på tunga lastbilar.</li>
 <li>Servostyrning blir tung om motorn stannar.</li></ul></details>
 
-<details><summary>Koppling och släp</summary><ul>
+<details><summary>Koppling och släp</summary>
+<figure class="fig"><svg viewBox="0 0 640 245" role="img" aria-label="Sadelkoppling mellan dragbil och påhängsvagn med kingpin, stödben samt luft- och elslangar" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" font-family="Barlow,Arial,sans-serif"><rect x="20" y="140" width="280" height="20" rx="6"/><circle cx="70" cy="192" r="30"/><circle cx="250" cy="192" r="30"/><rect x="190" y="126" width="110" height="14" rx="4" style="fill:#f28c00;fill-opacity:.35" stroke="#f28c00"/><rect x="205" y="40" width="400" height="70" rx="6"/><rect x="236" y="110" width="14" height="16" rx="3" style="fill:#f28c00" stroke="#f28c00"/><line x1="540" y1="110" x2="540" y2="215"/><line x1="515" y1="215" x2="565" y2="215"/><path d="M165 140 C160 100 185 82 207 88" stroke="#e5484d"/><path d="M178 140 C175 112 192 98 207 100" stroke="#f2c200"/><text x="320" y="190" text-anchor="start" fill="#f28c00" stroke="none" font-size="17" font-weight="700">Sadelkoppling</text><line x1="318" y1="184" x2="296" y2="142" stroke-width="2"/><text x="100" y="92" text-anchor="middle" fill="#f28c00" stroke="none" font-size="17" font-weight="700">Kingpin</text><line x1="140" y1="98" x2="236" y2="118" stroke-width="2"/><text x="540" y="238" text-anchor="middle" fill="currentColor" stroke="none" font-size="17" font-weight="700">Stödben</text><text x="320" y="24" text-anchor="middle" fill="currentColor" stroke="none" font-size="16" font-weight="600">Slangar (röd, gul) för luft och kabel för el</text></svg><figcaption>Kingpin på påhängsvagnen låses i sadelkopplingen. Stödbenen fälls upp efter koppling, och luft och el kopplas in.</figcaption></figure>
+<ul>
 <li>Koppling av påhängsvagn: backa in under vagnen så att sadelkopplingen låser om vagnens kopplingstapp (kingpin), anslut luft och el, fäll upp stödbenen och gör ett dragtest.</li>
 <li>Avkoppling: dra åt släpets parkeringsbroms, sänk stödbenen, koppla loss luft och el, öppna sadelkopplingen och kör fram.</li>
 <li>Släpets dragstång och dragkrok ska låsas och säkras med säkerhetsfunktion.</li>
 <li>Kontrollera att belysningen på släpet fungerar och att kablar och slangar inte släpar.</li>
 <li>Påhängsvagn viker sig (jackknife) lätt vid hård bromsning i sväng. Kör försiktigt på hal väg.</li></ul></details>
 
-<details><summary>Spegel, sikt och belysning</summary><ul>
+<details><summary>Spegel, sikt och belysning</summary>
+<figure class="fig"><svg viewBox="0 0 640 300" role="img" aria-label="Lastbil sedd uppifrån med dödvinkelzoner framför hytten och på höger sida" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" font-family="Barlow,Arial,sans-serif"><rect x="270" y="70" width="90" height="80" rx="12"/><rect x="270" y="150" width="90" height="140" rx="6" stroke-dasharray="2 10"/><polygon points="365,70 470,70 470,290 365,290" style="fill:#f28c00;fill-opacity:.22" stroke="#f28c00" stroke-width="3" stroke-dasharray="8 6"/><polygon points="270,70 360,70 380,14 250,14" style="fill:#f28c00;fill-opacity:.22" stroke="#f28c00" stroke-width="3" stroke-dasharray="8 6"/><polygon points="170,70 265,70 265,150 170,150" style="fill:currentColor;fill-opacity:.1" stroke-width="3" stroke-dasharray="8 6"/><rect x="258" y="84" width="10" height="26" rx="3" style="fill:#f28c00" stroke="#f28c00"/><rect x="362" y="84" width="10" height="26" rx="3" style="fill:#f28c00" stroke="#f28c00"/><text x="480" y="150" text-anchor="start" fill="#f28c00" stroke="none" font-size="18" font-weight="700">Dödvinkel</text><text x="480" y="172" text-anchor="start" fill="#f28c00" stroke="none" font-size="18" font-weight="700">höger sida</text><text x="480" y="194" text-anchor="start" fill="currentColor" stroke="none" font-size="17" font-weight="600">(störst)</text><text x="15" y="48" text-anchor="start" fill="#f28c00" stroke="none" font-size="18" font-weight="700">Framför hytten</text><line x1="130" y1="44" x2="248" y2="32" stroke-width="2"/><text x="165" y="118" text-anchor="end" fill="currentColor" stroke="none" font-size="16" font-weight="600">Mindre</text><text x="165" y="138" text-anchor="end" fill="currentColor" stroke="none" font-size="16" font-weight="600">på vänster sida</text><text x="315" y="112" text-anchor="middle" fill="currentColor" stroke="none" font-size="17" font-weight="600">Hytt</text></svg><figcaption>Sett uppifrån. De streckade orange ytorna är dödvinklar. Titta extra noga åt höger och framför hytten.</figcaption></figure>
+<ul>
 <li>Lastbilen har huvudspegel, vidvinkelspegel, främre spegel och närzonsspegel. Ställ in dem före körning.</li>
 <li>Dödvinkeln är störst på höger sida och framför hytten. Titta alltid extra vid högersväng.</li>
 <li>Kontrollera helljus, halvljus, blinkers, bromsljus, backljus och markeringsljus.</li>
 <li>Håll rutor och speglar rena och byt trasiga torkarblad.</li></ul></details>
 
-<details><summary>Miljö och vätskor</summary><ul>
+<details><summary>Miljö och vätskor</summary>
+<figure class="fig"><svg viewBox="0 0 640 225" role="img" aria-label="Avgasrening: motor, partikelfilter, SCR-katalysator med AdBlue och rena avgaser" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" font-family="Barlow,Arial,sans-serif"><rect x="15" y="50" width="100" height="60" rx="8" style="fill:#f28c00;fill-opacity:.22"/><text x="65" y="87" text-anchor="middle" fill="currentColor" stroke="none" font-size="19" font-weight="700">Motor</text><g stroke="currentColor"><line x1="115" y1="80" x2="145" y2="80"/><polyline points="135,85 145,80 135,75"/></g><rect x="145" y="50" width="130" height="60" rx="8"/><text x="210" y="76" text-anchor="middle" fill="currentColor" stroke="none" font-size="19" font-weight="700">Partikel-</text><text x="210" y="98" text-anchor="middle" fill="currentColor" stroke="none" font-size="19" font-weight="700">filter (DPF)</text><g stroke="currentColor"><line x1="275" y1="80" x2="305" y2="80"/><polyline points="295,85 305,80 295,75"/></g><rect x="305" y="50" width="150" height="60" rx="8"/><text x="380" y="76" text-anchor="middle" fill="currentColor" stroke="none" font-size="19" font-weight="700">SCR-</text><text x="380" y="98" text-anchor="middle" fill="currentColor" stroke="none" font-size="19" font-weight="700">katalysator</text><g stroke="currentColor"><line x1="455" y1="80" x2="485" y2="80"/><polyline points="475,85 485,80 475,75"/></g><rect x="485" y="50" width="140" height="60" rx="8"/><text x="555" y="87" text-anchor="middle" fill="currentColor" stroke="none" font-size="19" font-weight="700">Rena avgaser</text><rect x="305" y="150" width="150" height="56" rx="8" style="fill:#f28c00;fill-opacity:.22"/><text x="380" y="185" text-anchor="middle" fill="currentColor" stroke="none" font-size="19" font-weight="700">AdBlue-tank</text><line x1="380" y1="150" x2="380" y2="114" stroke="#f28c00"/><g stroke="#f28c00"><line x1="380" y1="128" x2="380" y2="112"/><polyline points="385,122 380,112 375,122"/></g><text x="210" y="150" text-anchor="middle" fill="currentColor" stroke="none" font-size="16" font-weight="600">Sot brinns bort vid</text><text x="210" y="170" text-anchor="middle" fill="currentColor" stroke="none" font-size="16" font-weight="600">regenerering</text><text x="540" y="150" text-anchor="middle" fill="currentColor" stroke="none" font-size="16" font-weight="600">Kväveoxider blir</text><text x="540" y="170" text-anchor="middle" fill="currentColor" stroke="none" font-size="16" font-weight="600">kväve och vatten</text></svg><figcaption>Partikelfiltret fångar sot. I SCR-katalysatorn sprutas AdBlue in för att minska kväveoxider.</figcaption></figure>
+<ul>
 <li>AdBlue (urea) tillsätts i avgasreningen (SCR) för att minska kväveoxider. Om det tar slut kan motorn begränsa effekten.</li>
 <li>Partikelfilter (DPF) fångar sot och renas genom regenerering. Avbryt inte pågående regenerering.</li>
 <li>Kontrollera motorolja, kylvätska, spolarvätska, hydraulolja och AdBlue regelbundet.</li>
 <li>Utsläppsklasser kallas Euro (till exempel Euro 6). Högre siffra betyder renare avgaser.</li>
 <li>Spill av olja och diesel ska tas upp. Släpp aldrig ut det i avlopp eller på marken.</li></ul></details>
 
-<details><summary>Daglig kontroll före körning</summary><ul>
-<li>Läckage under fordonet och synliga skador.</li>
-<li>Däck: mönsterdjup, tryck och skador. Hjulmuttrar sitter fast.</li>
-<li>Belysning och speglar fungerar och är rena.</li>
-<li>Vätskenivåer: motorolja, kylvätska, spolarvätska, AdBlue.</li>
-<li>Lufttryck bygger upp och varningslampor släcks.</li>
-<li>Last, lastsäkring och kopplingar är kontrollerade.</li>
-<li>Dokument och färdskrivarkort finns med.</li></ul></details></section>
+</section>
 
 <section class="card topic" id="t-saker"><h2>Trafiksäkerhet tung trafik</h2>
 <ul><li>Tunga fordon är långa, tunga och har dödvinklar. Det kräver mer utrymme, längre bromssträcka och mer framförhållning.</li></ul>
@@ -912,6 +926,11 @@ table.rt th,th{text-align:left;font:600 14px Barlow,sans-serif;color:var(--mute)
 <p class="note">Märkesbilder från vägmärken.se. Kategorierna följer Transportstyrelsens indelning.</p></section>
 
 <p class="note" id="foot">Övningsmaterial. Kontrollera alltid aktuella regler hos Transportstyrelsen, Trafikverket och MSB.</p>
+<details class="priv" id="priv"><summary>Integritet</summary>
+<p>C-kortet har inga konton, annonser eller spårning och samlar inte in några personuppgifter.</p>
+<p>Dina quizresultat, felsvar och valet av mörkt eller ljust läge sparas bara i webbläsaren på din egen enhet. De skickas inte vidare och försvinner om du rensar webbläsarens data. Om appen öppnas via Claude sparas resultaten i ditt Claude-konto i stället.</p>
+<p>Typsnitten hämtas från Google Fonts. Då får Google din IP-adress, som vid vilken annan webbplats som helst.</p>
+</details>
 </div>
 
 <div id="quiz" hidden>
@@ -1121,5 +1140,11 @@ $("bs-m").addEventListener("pointerdown",function(){});})();
 bsCalc();
 show("home");info();
 </script>
+<script>(function(){var r=document.documentElement,K="ckortet-theme";
+function sys(){return window.matchMedia&&matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light"}
+var t=null;try{t=localStorage.getItem(K)}catch(e){}
+if(t!=="dark"&&t!=="light")t=sys();r.setAttribute("data-theme",t);
+function mc(){var m=document.querySelector('meta[name="theme-color"]');if(m)m.setAttribute("content",r.getAttribute("data-theme")==="dark"?"#14181c":"#eef0f2")}mc();
+var b=document.getElementById("themeBtn");if(b)b.addEventListener("click",function(){var n=r.getAttribute("data-theme")==="dark"?"light":"dark";r.setAttribute("data-theme",n);try{localStorage.setItem(K,n)}catch(e){}mc()})})();</script>
 <script>if("serviceWorker" in navigator&&location.protocol.indexOf("http")===0){window.addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){})})}</script></body>
 </html>
